@@ -15,6 +15,7 @@
 		7084D8F21D18EC1900750DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7084D8F01D18EC1900750DA8 /* LaunchScreen.storyboard */; };
 		7084D8FD1D18EC1900750DA8 /* CreditCardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7084D8FC1D18EC1900750DA8 /* CreditCardViewTests.m */; };
 		7084D9081D18EC1900750DA8 /* CreditCardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7084D9071D18EC1900750DA8 /* CreditCardViewUITests.m */; };
+		7084D9171D18EDD300750DA8 /* CreditCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7084D9161D18EDD300750DA8 /* CreditCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7084D9031D18EC1900750DA8 /* CreditCardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditCardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7084D9071D18EC1900750DA8 /* CreditCardViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditCardViewUITests.m; sourceTree = "<group>"; };
 		7084D9091D18EC1900750DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7084D9151D18EDD300750DA8 /* CreditCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardView.h; sourceTree = "<group>"; };
+		7084D9161D18EDD300750DA8 /* CreditCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +106,8 @@
 			children = (
 				7084D8E51D18EC1900750DA8 /* AppDelegate.h */,
 				7084D8E61D18EC1900750DA8 /* AppDelegate.m */,
-				7084D8E81D18EC1900750DA8 /* ViewController.h */,
-				7084D8E91D18EC1900750DA8 /* ViewController.m */,
-				7084D8EB1D18EC1900750DA8 /* Main.storyboard */,
-				7084D8EE1D18EC1900750DA8 /* Assets.xcassets */,
-				7084D8F01D18EC1900750DA8 /* LaunchScreen.storyboard */,
-				7084D8F31D18EC1900750DA8 /* Info.plist */,
+				7084D9181D18EDDF00750DA8 /* Controllers */,
+				7084D9191D18EDF500750DA8 /* Views */,
 				7084D8E21D18EC1900750DA8 /* Supporting Files */,
 			);
 			path = CreditCardView;
@@ -117,6 +116,10 @@
 		7084D8E21D18EC1900750DA8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7084D8F31D18EC1900750DA8 /* Info.plist */,
+				7084D8F01D18EC1900750DA8 /* LaunchScreen.storyboard */,
+				7084D8EE1D18EC1900750DA8 /* Assets.xcassets */,
+				7084D8EB1D18EC1900750DA8 /* Main.storyboard */,
 				7084D8E31D18EC1900750DA8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +141,24 @@
 				7084D9091D18EC1900750DA8 /* Info.plist */,
 			);
 			path = CreditCardViewUITests;
+			sourceTree = "<group>";
+		};
+		7084D9181D18EDDF00750DA8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7084D8E81D18EC1900750DA8 /* ViewController.h */,
+				7084D8E91D18EC1900750DA8 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7084D9191D18EDF500750DA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7084D9151D18EDD300750DA8 /* CreditCardView.h */,
+				7084D9161D18EDD300750DA8 /* CreditCardView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +294,7 @@
 				7084D8EA1D18EC1900750DA8 /* ViewController.m in Sources */,
 				7084D8E71D18EC1900750DA8 /* AppDelegate.m in Sources */,
 				7084D8E41D18EC1900750DA8 /* main.m in Sources */,
+				7084D9171D18EDD300750DA8 /* CreditCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
