@@ -15,6 +15,8 @@
 
 - (id)initWithFrame:(NSString*)Card withPos:(CGPoint)pos{
     
+    
+    
     UIImage * cardImage = [UIImage imageNamed:@"BlackCard"];
     width = cardImage.size.width;
     height = cardImage.size.height;
