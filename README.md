@@ -5,8 +5,8 @@
   <h5>-App Rate view</h5>
   <h5>-Graphs/diagramas<h5>
   <h1>Good Practices</h1>
-  <a href="https://www.sketchapp.com">-Get Sketch 3</a>
-  <h5>-Google's Material Design looks nice XD.</h5>
+  <a href="https://www.sketchapp.com">Sketch 3</a>
+  <h5>-Material Design</h5>
   <h5>-Stay small</h5>
   <br>
   
